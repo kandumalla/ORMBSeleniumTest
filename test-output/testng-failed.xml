@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [ORMB test run]">
+  <test name="ORMB Test(failed)">
+    <classes>
+      <class name="vixxo.ORMBTest.ExecuteTest">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- vixxo.ORMBTest.ExecuteTest -->
+    </classes>
+  </test> <!-- ORMB Test(failed) -->
+</suite> <!-- Failed suite [ORMB test run] -->

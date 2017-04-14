@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ORMB Test Run]" parallel="tests">
+  <parameter name="browser" value="FireFox"/>
+  <test name="ORMB FireFoxTest(failed)" parallel="tests" preserve-order="true">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="vixxo.ORMBTest.ExecuteTest">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

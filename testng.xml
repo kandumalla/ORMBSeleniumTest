@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ORMB Test Run" parallel ="tests" >
+  <test name="ORMB FireFoxTest">
+  <parameter name = "browser" value = "FireFox" />
+    <classes>
+      <class name="vixxo.ORMBTest.ExecuteTest"> 
+         <methods> 
+             <include name="setup"></include>
+             <include name = "testlogin"></include>
+         </methods> 
+      </class>
+    </classes>
+  </test>
+  <!--  test name="ORMB ChromeTest">
+  <parameter name = "browser" value = "Chrome" />
+    <classes>
+      <class name="vixxo.ORMBTest.ExecuteTest"> 
+         <methods> 
+             <include name="setup"></include>
+             <include name = "testlogin"></include>
+         </methods> 
+      </class>
+    </classes>
+  </test>
+  <test name="ORMB IETest">
+  <parameter name = "browser" value = "ie" />
+    <classes>
+      <class name="vixxo.ORMBTest.ExecuteTest"> 
+         <methods> 
+             <include name="setup"></include>
+             <include name = "testlogin"></include>
+         </methods> 
+      </class>
+    </classes>
+  </test> -->
+</suite>
