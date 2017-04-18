@@ -47,7 +47,7 @@ public Object[][] getDataFromDataprovider() throws IOException{
 	
 	ReadExcelFile file = new ReadExcelFile();
 	//Read keyword sheet
-	Sheet sSheet = file.readExcel(System.getProperty("user.dir")+"\\","TestCase.xlsx" , "KeywordFramework");
+	Sheet sSheet = file.readExcel(System.getProperty("user.dir")+"\\","TestCase2.xls" , "KeywordFramework");
 	//Find number of rows in excel file
 	    int rowCount = sSheet.getLastRowNum()-sSheet.getFirstRowNum();
 	    object = new Object[rowCount][5];
